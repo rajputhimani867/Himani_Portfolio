@@ -746,12 +746,3 @@ footer p {
 }
 
 
-.more-text {
-  transition: all 0.3s ease;
-}
-.view-more {
-  color: #d62828;
-  font-weight: bold;
-  cursor: pointer;
-}
-
