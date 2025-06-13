@@ -53,16 +53,3 @@ document.addEventListener('DOMContentLoaded', () => {
       if (e.target === projectModal) projectModal.style.display = "none";
     });
   };
-
-
-function toggleText(element) {
-  const paragraph = element.previousElementSibling;
-  paragraph.classList.toggle('expanded');
-
-  if (paragraph.classList.contains('expanded')) {
-    element.textContent = 'View less';
-  } else {
-    element.textContent = 'View more';
-  }
-}
-
