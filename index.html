@@ -434,9 +434,8 @@
   <script src="js/index.js"></script>
 <script>
   function toggleText(link) {
-  const para = link.previousElementSibling;
+  const para = link.parentElement.querySelector('.text-collapse');
 
-  // Toggle the clamp class
   if (para.classList.contains('clamp')) {
     para.classList.remove('clamp');
     link.textContent = 'View less';
@@ -445,6 +444,7 @@
     link.textContent = 'View more';
   }
 }
+
 
 </script>
 
