@@ -54,3 +54,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
+
+function toggleText(element) {
+  const moreText = element.previousElementSibling;
+  if (moreText.style.display === "none" || moreText.style.display === "") {
+    moreText.style.display = "inline";
+    element.textContent = "View less";
+  } else {
+    moreText.style.display = "none";
+    element.textContent = "View more";
+  }
+}
+
