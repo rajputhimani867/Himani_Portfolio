@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+  .portfolio-card {
+    width: 100%;
+  }
+  #header{
+    margin-top: 15px;
+    overflow-y: scroll;
+
+  }
+  .home-section{
+     flex-wrap: wrap;
+  }
+  .home-text{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin-top: 40%;
+  }
+  .home-text h1{
+    font-size: 35px;
+  }
+  .home-text p{
+    font-size: 30px;
+  }
+  .fixed-image-wrapper{
+    position: fixed;
+    top: 5%;
+    left: 20px;
+    width: 90%;
+    height: 100%;
+  }
+  .about-section{
+    margin-top: 30px;
+    padding: 50px 20px;
+  }
+  .about-image, .about-content{
+    width: 100%;
+  }
+  .about-content p{
+
+  }
+  .service-box{
+    width: 100%;
+  }
+  .github-section{
+    height: 400px;
+  }
+  .contact-section{
+    padding: 40px 20px;
+  }
+  .container{
+    padding: 20px 20px;
+  }
+  .contact-card{
+    width: 100%;
+    flex: 1 1 50%;
+}
+.contact-footer .btn{
+    margin-top: 20px;
+}
+}
