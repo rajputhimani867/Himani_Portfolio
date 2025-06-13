@@ -5,6 +5,7 @@
   #header{
     margin-top: 15px;
     overflow-y: scroll;
+    display: none;
 
   }
   .home-section{
@@ -14,7 +15,6 @@
     width: 100%;
     text-align: center;
     position: relative;
-    margin-top: 40%;
   }
   .home-text h1{
     font-size: 35px;
@@ -22,22 +22,47 @@
   .home-text p{
     font-size: 30px;
   }
-  .fixed-image-wrapper{
+  /* .fixed-image-wrapper{
     position: fixed;
     top: 5%;
     left: 20px;
     width: 90%;
     height: 100%;
-  }
+  } */
+   .fixed-image-wrapper{
+    width: 100%;
+   }
+.home-section{
+    flex-direction: column-reverse;
+    margin-top: 40px;
+}
   .about-section{
     margin-top: 30px;
-    padding: 50px 20px;
+    padding: 50px 10px;
+  }
+  .Experience{
+    padding: 50px 10px;
   }
   .about-image, .about-content{
     width: 100%;
   }
-  .about-content p{
-
+  .home-text-profile{
+    width: 100%;
+  }
+  .portfolio-section{
+    padding: 40px 10px;
+  }
+  .Experience-container{
+    flex-wrap: wrap;
+  }
+  .Experience-box{
+    width: 100%;
+  }
+  .project-cards{
+    width: 100%;
+  }
+  .section-title{
+    margin-top: 0px;
   }
   .service-box{
     width: 100%;
