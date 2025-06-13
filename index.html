@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <title> Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header id="header">
+        <div class="containerA">
+            <nav>
+                <div class="logo">
+                <img class="name-logo" src="assets/images/logo1.png" class="logo" alt="Logo">
+            </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Experience">Internship</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+            <div class="home-section">
+            <div class="home-text">
+                <h1> Himani Chauhan </h1>
+          
+           <div class="home-text-profile">
+  <h3 class="typing typing-1">Software Developer</h3>
+  <h3 class="typing typing-2">Web Developer</h3>
+    <h3 class="typing typing-3">FrontEnd Developer</h3>
+  <h3 class="typing typing-4">Programmer</h3>
+
+</div>
+            </div>
+            <div class="home-img fixed-image-wrapper">
+                <img src="assets/images/computerImg.jpeg" alt="Header Image">
+            </div>
+        <!-- </div> -->
+    </div>
+
+    <section class="about-section" id="about">
+        <div class="about-container">
+          <div class="about-image">
+            <img src="assets/images/aboutImg.jpeg" alt="Himani Chauhan" />
+          </div>
+          <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                My name is Himani Chauhan. I am looking for a challenging job in a good company where I can use my technical, database, 
+                and management skills to help the company grow and also learn new things in the IT field. I enjoy my work because I love what I do.     
+            </p>
+            <div class="educations-section">
+              <h3>Education</h3>
+              <ul>
+                <li>Master of Computer Application (MCA) - 2022-2024</li>
+                <li>Bachelor of Science (Mathematics) - 2018-2021</li>
+                <li>Senior Secondary School (12th) - 2017-2018</li>
+                <li>Secondary School (10th) - 2015-2016</li>
+              </ul>
+            </div>
+            <!-- <div class="tabs">
+              <button class="tab-btn active" data-tab="skills">Skills</button>
+              <button class="tab-btn" data-tab="experience">Experience</button> 
+              <button class="tab-btn" data-tab="education">Education</button>
+            </div> -->
+      
+            <!-- <div class="tab-content active" id="skills">
+              <p><span>Web Development :-</span> Website Development</p>
+            <p><span>Other Skills :-</span>
+                HTML, CSS, JavaScript, SQL, React.Js, Communication, Creativity, Strong Decision Skill, Teamwork Problem Solving, Adaptability, leadership skill , Analytical,Teamwork</p>
+            </div>
+            <div class="tab-content" id="experience">
+                <p><span>May 2024 – Present</span> Frontend Web Developer at Banno Technology Pvt.Ltd</p>
+                <p><span>Fab 2024 – Jun 2024</span> Frontend Web Developer Intern at Modi Software Solutions Pvt Ltd.</p>
+            </div> -->
+            <!-- <div class="tab-content" id="education">
+              <p><span>2022 – 2024</span> Master of Computer Application</p>
+              <p><span>2018 - 2021</span> Bachelor of Science (Mathematics)</p>
+               <p><span>2017 - 2018</span> Senior Secondary School (12th)</p>
+              <p><span>2015 - 2016</span> Secondary School (10th)</p> 
+            </div> -->
+          </div>
+          
+        </div>
+      </section>
+      
+      <!------------------------------about Us---------------  -->
+<!-- ---------------------------My Experience--------------------- -->
+    <section class="Experience" id="Experience">
+  <h2 class="section-title experience-heading">Experience</h2>
+  <div class="Experience-container">
+    <div class="Experience-box">
+       <div class="loader">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+      <h3>Banno Technology Pvt.Ltd</h3>
+    <button onclick="openModal('taskModalA')"  class="learn-more">View more <span>&#8594;</span></button>
+    </div>
+    
+    <div class="Experience-box">
+       <div class="loader">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+      <h3> Modi Software Solutions Pvt Ltd</h3>
+   <button onclick="openModal('taskModalB')"  class="learn-more">View more <span>&#8594;</span></button>
+    </div>
+
+       <div class="Experience-box">
+       <div class="loader">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+      <h3>4Achievers, Dehradun</h3>
+      <button onclick="openModal('taskModalC')"  class="learn-more">View more <span>&#8594;</span></button>
+    </div>
+
+    <div class="Experience-box">
+  <div class="loader">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <h3>Codsoft</h3>
+  <button onclick="openModal('taskModalD')"  class="learn-more">View more <span>&#8594;</span></button>
+</div>
+  </div>
+</section>
+
+<!-- ---------------------------My Experience-------------------- -->
+ <!-- --------------------------My work----------------------- -->
+ <section class="portfolio-section" id="portfolio">
+    <h2 class="section-title experience-heading">Projects</h2>
+    <div class="portfolio-container">
+      <div class="project-cards">
+        <img src="assets/images/weatherApp.png" alt="Project 1" />
+       <div class="portfolio-description">
+          <h3>Current Weather Application</h3>
+          <p class="text-collapse clamp" >
+            A responsive web application that displays real-time weather data using a Cloud API. Users can search for any city to view live 
+            temperature, humidity, wind speed, and conditions with dynamic icons. 
+            Built using HTML, CSS, JavaScript, React.js, Node.js, and Cloud API. </p>
+<br><a href="javascript:void(0);" class="view-more" onclick="toggleText(this)">View more</a>
+    <div class="demo-link">
+            <!-- <button id="openModalBtn"><i class="fas fa-external-link-alt"></i></button> -->
+          <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+       </div>
+  </div>
+
+       <div class="project-cards">
+        <img src="assets/images/shophere.png" alt="Project 2" />
+        <div class="portfolio-description">
+          <h3>Shop Here</h3>
+          <p class="text-collapse clamp">A user-friendly e-commerce web app built with HTML, CSS, JavaScript, and React.js, offering a smooth and responsive 
+            online shopping experience with clean UI and dynamic product listings.</p>
+<br><a href="javascript:void(0);" class="view-more" onclick="toggleText(this)">View more</a>
+    <div class="demo-link">
+            <!-- <button id="openModalBtn"><i class="fas fa-external-link-alt"></i></button> -->
+          <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+       </div>
+  </div>
+
+  <div class="project-cards">
+        <img src="assets/images/reactDashboard.png" alt="Project3" />
+        <div class="portfolio-description">
+          <h3>React Dashboard</h3>
+          <p class="text-collapse clamp">A responsive and interactive admin dashboard built with React.js, HTML, CSS, and JavaScript, featuring dynamic charts and data 
+            visualizations for effective data monitoring.</p>
+<br><a href="javascript:void(0);" class="view-more" onclick="toggleText(this)">View more</a>
+    <div class="demo-link">
+            <!-- <button id="openModalBtn"><i class="fas fa-external-link-alt"></i></button> -->
+          <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+       </div>
+  </div>
+
+       <div class="project-cards">
+        <img src="assets/images/Emreeprep.jpeg" alt="Project 4" />
+        <div class="portfolio-description">
+          <h3>Emreeprep</h3>
+           <p class="text-collapse clamp">
+            Emreeprep features a modern, clean, and responsive frontend design tailored to provide an intuitive learning platform for Emree exam 
+            preparation. The website offers clear navigation, well-structured content sections, and interactive elements to keep users engaged and improve their study experience.
+         <br><span>Technologies Used: HTML, CSS, JavaScript </span>
+         </p>
+<br><a href="javascript:void(0);" class="view-more" onclick="toggleText(this)">View more</a>
+          <div class="demo-link">
+<button onclick="openModal('experienceModal')"><i class="fas fa-external-link-alt"></i></button>
+          <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+        </div>
+              </div>
+      </div>
+
+
+      <div class="project-cards">
+  <img src="assets/images/DrAfreen.jpeg" alt="Project5" />
+  <div class="portfolio-description">
+    <h3>Dr. Afreen's Academy</h3>
+    <p class="text-collapse clamp">
+      Dr. Afreen's Academy frontend is designed with a clean, responsive, and user-friendly approach to deliver an engaging experience for medical professionals preparing for Gulf Licensing Exams. 
+      The website includes well-organized navigation, clear and informative content sections, and smooth interactive elements to improve usability and accessibility across all devices.
+    <br><span>Technologies Used: HTML, CSS, JavaScript</span>
+    </p>
+<br><a href="javascript:void(0);" class="view-more" onclick="toggleText(this)">View more</a>
+        <div class="demo-link">
+<button onclick="openModal('projectModal')"><i class="fas fa-external-link-alt"></i></button>
+      <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+    </div>
+  </div>
+</div>
+
+  
+      <div class="project-cards">
+        <img src="assets/images/Madwolfride.jpeg" alt="Project6" />
+        <div class="portfolio-description">
+          <h3>MADWOLF RIDES Website</h3>
+     <p class="text-collapse clamp">
+      MADWOLF RIDES features a sleek, modern, and responsive frontend design that highlights motorcycle products with clear visuals and smooth navigation.
+       The site offers an engaging user experience with interactive elements and a well-organized layout suitable for browsing and exploring products.
+<br><span>Technologies Used: HTML, CSS, JavaScript </span>
+     </p>
+<br><a href="javascript:void(0);" class="view-more" onclick="toggleText(this)">View more</a>
+
+</p>
+<!-- <br><a href="javascript:void(0);" class="view-more" onclick="toggleText(this)">View more</a> -->
+ <div class="demo-link">
+<button onclick="openModal('projectModalthree')"><i class="fas fa-external-link-alt"></i></button>
+          <!-- <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+        </div>
+              </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="github-section" style="background-image: url('assets/images/bg_1.jpg');">
+    <div class="github-overlay">
+      <h2><span>More projects</span> on <span class="highlight">Github</span></h2>
+      <p>I love to solve business problems & uncover hidden data stories</p>
+      <a href="https://github.com/rajputhimani867" class="github-btn" target="_blank">GITHUB</a>
+      <!-- <h3 class="completed">10 + Projects completed</h3> -->
+    </div>
+  </section>
+  
+<!-- ------------------------------------Projects---------------------- -->
+ <!-- -----------------------------contact me---------------------- -->
+    
+<section class="contact-section" id="contact">
+    <div class="container">
+      <h1 class="section-title">Contact Me</h1>
+      <p class="section-subtitle">Below are the details to reach out to me!</p>
+  
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="icon"><i class="fas fa-map-signs"></i></div>
+          <h3>ADDRESS</h3>
+          <p>Noida Uttar Pradesh</p>
+        </div>
+        <div class="contact-card">
+          <div class="icon"><i class="fas fa-phone-alt"></i></div>
+          <h3>CONTACT NUMBER</h3>
+          <p><a href="tel:7302827594">+91 7302827594</a></p>
+        </div>
+        <div class="contact-card">
+          <div class="icon"><i class="fas fa-paper-plane"></i></div>
+          <h3>EMAIL ADDRESS</h3>
+          <!-- <p><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">rajputhimani867@gmail.com</a></p> -->
+                     <p><a href="#">rajputhimani867@gmail.com</a></p>
+        </div>
+        <div class="contact-card">
+          <div class="icon"><i class="fas fa-globe"></i></div>
+          <h3>DOWNLOAD RESUME</h3>
+          <p><a href="https://drive.google.com/file/d/1t_XxP2Pe7EWZowe-VxZmf-Rsao5WDXE_/view?usp=drive_link" target="_blank">resumelink</a></p>
+        </div>
+      </div>
+  
+      <div class="contact-footer">
+        <h2>Have a <span>Question?</span> 
+          <a class="btn" href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Click Here</a>
+        </h2>
+        <ul class="social-links">
+          <li>Find me on</li>
+          <li><a href="https://www.linkedin.com/in/himani-chauhan-b40972272/"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://www.facebook.com/himani.rajput.348393"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/himanirajput769/"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+    <footer>
+        <p>Copyright ©2025 All rights reserved | Designed with by Himani Chauhan</p>
+            <!-- <p>
+                Copyright ©2025 All rights reserved | Designed with by 
+                <a href="https://www.linkedin.com/in/himani-chauhan-b40972272/" style="color: #fff; text-decoration: none;">Himani Chauhan</a>
+              </p> -->
+    </footer>
+
+    <!-- ----------------------footer-------------------------------- -->
+     <!-- --------------------------------modal-------------------- -->
+     <!-- -----------------------------------modelD------------------------ -->
+      <div id="taskModalA" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <ul>
+      <li>Frontend Developer — Full Time</li>
+      <li>Duration: 1 Year</li>
+      <li>Role & Responsibilities:</li>
+      <li>Developed and maintained responsive user interfaces using HTML, CSS, JavaScript, and React.js.</li>
+      <li>Collaborated with designers and backend developers to integrate APIs and improve UI/UX performance.</li>
+      <li>Worked on live client projects, ensuring mobile responsiveness using media queries and Tailwind CSS.</li>
+      <li>Utilized GitHub for version control and contributed to team repositories.</li>
+      <li>Gained practical experience with tools like Sass, jQuery, and AWS for frontend deployment and enhancement.</li>
+    </ul>
+  </div>
+</div>
+
+   <div id="taskModalB" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <ul>
+      <li>Full Stack Developer - Internship</li>
+      <li>Duration: 5 Months</li>
+      <li>Role & Responsibilities:</li>
+      <li>Developed and maintained responsive user interfaces using HTML, CSS, JavaScript, and React.js.</li>
+      <li>Worked on full-stack development using PHP and MySQL for building dynamic and database-driven web applications.</li>
+      <li>Developed and maintained backend logic, user authentication, and form processing.</li>
+      <li>Created responsive UI layouts using HTML, CSS, and JavaScript to ensure cross-device compatibility.</li>
+      <li>Gained hands-on experience in XAMPP, API integration, and version control using GitHub.</li>
+    </ul>
+  </div>
+</div>
+
+   <div id="taskModalC" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <ul>
+<li>Java Intern</li>
+      <li>Duration: 2 Months</li>
+   <li>Role & Responsibilities:</li>
+      <li>Learned and implemented core Java concepts including OOPs, exception handling, collections, and file I/O.</li>
+      <li>Built small-scale Java-based applications using Java SE and explored basic Java EE components like Servlets and JSP.</li>
+      <li>Gained experience working with MySQL for database connectivity using JDBC.</li>
+      <li>Worked on mini projects and assignments to strengthen backend logic and problem-solving skills.</li>
+      <li>Collaborated in a team environment, improving debugging skills and understanding of code structure and design patterns.</li>
+    </ul>
+  </div>
+</div>
+
+<div id="taskModalD" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <ul>
+      <li>E-commerce Website</li>
+      <li>Duration: 2 Months</li>
+      <li>Technologies Used: HTML, CSS, JavaScript, React.js</li>
+      <li>Role & Responsibilities:</li>
+      <li>Developed a responsive e-commerce website with a focus on user experience and mobile compatibility.</li>
+      <li>Users can order electronics, clothes, and other items.</li>
+      <li>Product cards, add-to-cart behavior, and responsive layout.</li>
+      <li>Smooth, interactive UI using vanilla JavaScript.</li>
+      <li>Designed with user experience and device compatibility in mind.</li>
+    </ul>
+  </div>
+</div>
+     <!-- -----------------------------------modelD------------------------ -->
+
+  <!-- ------------------------projects of modals----------------------- -->
+<!-- --------------------------Modal four--------------------------------- -->
+<div id="experienceModal" class="projectModal">
+  <div class="projectmodal-content">
+    <span class="close-button" onclick="closeModal('experienceModal')">&times;</span>
+    <p>Project: Emreeprep – Exam Preparation Platform : -</p>
+    <p>Developed responsive and user-friendly front-end interfaces using HTML, CSS, and JavaScript.</p>
+    <p>Built mobile-first layouts to ensure seamless experience across all screen sizes.</p>
+    <p>Created and styled UI components aligned with modern design principles.</p>
+    <p>Ensured cross-browser compatibility and optimized loading performance.</p>
+    <p>Collaborated with backend and design teams to integrate and refine front-end functionality.</p>
+    <p>Maintained clean, semantic, and reusable code for scalability and future enhancements.</p>
+  </div>
+</div>
+<!-- --------------------------Modal four--------------------------------- -->
+
+<!-- --------------------------Modal five--------------------------------- -->
+<div id="projectModal" class="projectModal">
+  <div class="projectmodal-content">
+    <span class="close-button" onclick="closeModal('projectModal')">&times;</span>
+    <p>Healthcare Consultation Website : -</p>
+    <p>Implemented a fully responsive and accessible user interface using HTML, CSS, and JavaScript.</p>
+    <p>Designed a clean and professional layout suitable for a medical and consultation platform.</p>
+    <p>Developed mobile-friendly components ensuring smooth navigation across devices.</p>
+    <p>Optimized site speed and performance across all major browsers.</p>
+    <p>Worked closely with UI/UX references to ensure design consistency and usability.</p>
+    <p>Wrote modular and maintainable code to support future content updates and scalability.</p>
+  </div>
+</div>
+<!-- --------------------------Modal five--------------------------------- -->
+
+<!-- --------------------------Modal six--------------------------------- -->
+<div id="projectModalthree" class="projectModal">
+  <div class="projectmodal-content">
+    <span class="close-button" onclick="closeModal('projectModalthree')">&times;</span>
+    <p>MadWolfRiders – Self-Rental Vehicle Service : -</p>
+    <p>Engineered a responsive front-end for a vehicle rental platform using HTML, CSS, and JavaScript.</p>
+    <p>Created dynamic and intuitive interfaces for booking bikes, scooters, and cars.</p>
+    <p>Designed mobile-first layouts to deliver optimal UX across smartphones and desktops.</p>
+    <p>Ensured performance optimization and browser compatibility for seamless user journeys.</p>
+    <p>Integrated branding elements and interactive components for better customer engagement.</p>
+    <p>Maintained scalable and reusable code structure to support future feature enhancements.</p>
+  </div>
+</div>
+<!-- ------------------------------------Modal six----------------------------- -->
+
+
+  <script src="js/index.js"></script>
+<script>
+  function toggleText(link) {
+  const para = link.previousElementSibling;
+
+  // Toggle the clamp class
+  if (para.classList.contains('clamp')) {
+    para.classList.remove('clamp');
+    link.textContent = 'View less';
+  } else {
+    para.classList.add('clamp');
+    link.textContent = 'View more';
+  }
+}
+
+</script>
+
+
+</body>
+</html>
