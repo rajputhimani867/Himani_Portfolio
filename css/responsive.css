@@ -40,6 +40,11 @@
     margin-top: 30px;
     padding: 50px 10px;
   }
+  .about-image img {
+  width: 100%;
+  border-radius: 16px;
+}
+
   .Experience{
     padding: 50px 10px;
   }
